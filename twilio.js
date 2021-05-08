@@ -22,8 +22,9 @@ const send = (msg) => {
 
 const requestListener = function (req, res) {
     res.writeHead(200);
-    if(!isNaN(Number(req.url.split('/')[1])))
-        send(req.url.split('/')[1]);
+    const loc = req.url.split('/')[1];
+    if(loc.length > 1 && loc !== 'favicon.ico')
+        send(loc);
     res.end("Done");
 };
 
