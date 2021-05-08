@@ -12,7 +12,7 @@ Specify pincode, age limit(18 or 45) and a mobile number. Whenever slot becomes 
 3. Configure `config.js`, refer comments in file.
 4. Run `npm run start`.
 
-You will just get a message on whatsapp, message will just contain the pincode where slot has been found. 
+Message will just contain the pincode where slot has been found. 
 
 ## Honor the system
 This is an automated task but please be respectful to the system and don't overstress the cowin app by putting cron interval of less than 5 minutes. 
