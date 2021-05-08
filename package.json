@@ -1,0 +1,19 @@
+{
+  "name": "cowin-whatsapp-notifier",
+  "version": "1.0.0",
+  "description": "Find slots on cowin and get notification on whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node twilio.js & node run.js"
+  },
+  "author": "xitter",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-run-cmd": "^1.0.1",
+    "twilio": "^3.62.0"
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
