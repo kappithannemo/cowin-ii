@@ -1,4 +1,4 @@
-# Cowin Whatsapp Notifier
+# Cowin WhatsApp Notifier
 
 ## What does it do
 Specify pincode, age limit(18 or 45) and a mobile number. Whenever slot becomes available for given age at specified pincode, you will receive a message on whatsapp.
