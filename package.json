@@ -4,7 +4,8 @@
   "description": "Find slots on cowin and get notification on whatsapp",
   "main": "index.js",
   "scripts": {
-    "start": "node twilio.js & node run.js"
+    "start": "node twilio.js & node run.js",
+    "debug": "node twilio.js & npx cypress open"
   },
   "author": "xitter",
   "license": "ISC",
