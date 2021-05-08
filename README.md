@@ -5,7 +5,7 @@ Specify pincode, age limit(18 or 45) and a mobile number. Whenever slot becomes 
 
 ## Steps to setup:
 
-1. Run `npm install`.
+1. Clone the repo and run `npm install`.
 2. Setup twillio account to enable whatsapp notification. 
     - Signup from https://www.twilio.com/try-twilio
     - Setup whatsapp sandbox from https://www.twilio.com/console/sms/whatsapp/sandbox 
