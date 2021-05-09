@@ -46,13 +46,13 @@ describe('Cowin slots', () => {
         });
     };
 
-    config.pincodes.forEach(pincode => {
+    (config.pincodes || []).forEach(pincode => {
         for(let i=0; i<maxPages; i++) {
             runTestForPincode(pincode, i);
         }
     });
 
-    config.districts.forEach(district => {
+    (config.districts || []).forEach(district => {
         for(let i=0; i<maxPages; i++) {
             runTestForDistrict(district, i);
         }
