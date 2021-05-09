@@ -1,7 +1,7 @@
 # Cowin Telegram Notifier
 
 ## What does it do
-Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot becomes available for given age at specified pincode, you will receive a message on specified telegram chat/channel.
+Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot becomes available for given age at specified location, you will receive a message on telegram.
 
 ## Steps to setup:
 
