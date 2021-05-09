@@ -1,18 +1,18 @@
 {
-  "name": "cowin-whatsapp-notifier",
+  "name": "cowin-telegram-notifier",
   "version": "1.0.0",
-  "description": "Find slots on cowin and get notification on whatsapp",
+  "description": "Find slots on cowin and get notification on telegram",
   "main": "index.js",
   "scripts": {
-    "start": "node twilio.js & node run.js",
-    "debug": "node twilio.js & npx cypress open"
+    "start": "node telegram.js & node run.js",
+    "debug": "node telegram.js & npx cypress open"
   },
   "author": "xitter",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
     "node-run-cmd": "^1.0.1",
-    "twilio": "^3.62.0"
+    "node-telegram-bot-api": "^0.53.0"
   },
   "devDependencies": {
     "cypress": "^7.2.0"

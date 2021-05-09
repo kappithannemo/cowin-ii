@@ -1,15 +1,11 @@
-# Cowin WhatsApp Notifier
+# Cowin Telegram Notifier
 
 ## What does it do
-Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot becomes available for given age at specified pincode, you will receive a message on whatsapp.
+Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot becomes available for given age at specified pincode, you will receive a message on specified telegram chat/channel.
 
 ## Steps to setup:
 
 1. Clone the repo and run `npm install`.
-2. Setup twillio account to enable whatsapp notification. 
-    - Signup from https://www.twilio.com/try-twilio
-    - Setup whatsapp sandbox from https://www.twilio.com/console/sms/whatsapp/sandbox 
+2. Setup a telegram bot (https://gist.github.com/mraaroncruz/e76d19f7d61d59419002db54030ebe35)
 3. Configure `config.js`, refer comments in file.
-4. Run `npm run start`.
-
-Message will contain the center names where slot has been found. 
+4. Run `npm run start`, that's it.
