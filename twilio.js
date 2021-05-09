@@ -12,7 +12,7 @@ const send = (msg) => {
      
     client.messages 
           .create({ 
-             body: msg,
+             body: decodeURI(msg),
              from: 'whatsapp:+14155238886',       
              to: `whatsapp:${config.whatsapp}`, 
            })

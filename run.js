@@ -3,7 +3,7 @@ const config = require('./config');
 
 const runCypress = () => {
     console.log("------Finding slot on cowin------" + new Date());
-    nrc.run('npx cypress run', {onDone: () => console.log("Done!!")});
+    nrc.run('npx cypress run', {onDone: () => console.log("Done!!" + new Date())});
 };
 
 runCypress();
