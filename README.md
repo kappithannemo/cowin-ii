@@ -12,4 +12,4 @@ Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot
 3. Configure `config.js`, refer comments in file.
 4. Run `npm run start`.
 
-Message will just contain the pincode where slot has been found. 
+Message will contain the center names where slot has been found. 
