@@ -13,6 +13,3 @@ Specify pincode/district, age limit(18 or 45) and a mobile number. Whenever slot
 4. Run `npm run start`.
 
 Message will just contain the pincode where slot has been found. 
-
-## Honor the system
-This is an automated task but please be respectful to the system and don't overstress the cowin app by putting cron interval of less than 5 minutes. 
