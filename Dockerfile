@@ -5,4 +5,4 @@ ENV TZ=Europe/Istanbul
 RUN npm install 
 
 
-CMD ["npm start"]
+CMD ["npm run start"]
